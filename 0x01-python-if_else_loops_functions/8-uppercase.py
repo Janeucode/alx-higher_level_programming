@@ -3,9 +3,10 @@ def uppercase(s):
     for char in s:
         if 'a' <= char <= 'z':
             uppercase_char = chr(ord(char) - ord('a') + ord('A'))
-            print(uppercase_char, end='')
+            result += uppercase_char
         else:
-            print(char, end='')
+            result += char
+    print('{}'.format(result))
 str = "Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax"
 str = uppercase(str)
