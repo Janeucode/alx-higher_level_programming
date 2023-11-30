@@ -9,8 +9,3 @@ def uppercase(instr):
             result += char
     print('{}'.format(result))
     return result
-
-
-orstr = ''
-mstr = uppercase(orstr)
-print(mstr)
