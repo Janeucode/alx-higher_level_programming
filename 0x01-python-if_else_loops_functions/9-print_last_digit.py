@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def lastd(n):
-    n = str(n)
-    if n:
-        last_d = n[-1]
+def def print_last_digit(number):
+    number = str(number)
+    if number:
+        last_d = number[-1]
         print('{}'.format(last_d))
     else:
         print('the input is empty')
