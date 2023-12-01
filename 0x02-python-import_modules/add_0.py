@@ -2,4 +2,4 @@
 
 def add(a, b):
     ans = int(a) + int(b)
-    print(f"{a} + {b} = {ans}")
+    print("{} + {} = {}".format(a, b, ans))
