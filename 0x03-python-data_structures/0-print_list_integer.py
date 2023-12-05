@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 def print_list_integer(my_list=[]):
     for numbers in my_list:
-        print("{}".format(numbers))
+        if isinstance(number, int) or isinstance(number, float):
+            print("{}".format(numbers))
